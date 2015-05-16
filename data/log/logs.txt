@@ -4143,3 +4143,8 @@
 2015-05-17T00:13:10.806+0200 I COMMAND  [DataFileSync] flushing diag log
 2015-05-17T00:14:09.520+0200 I COMMAND  [DataFileSync] flushing diag log
 2015-05-17T00:15:09.531+0200 I COMMAND  [DataFileSync] flushing diag log
+2015-05-17T00:16:09.521+0200 I COMMAND  [DataFileSync] flushing diag log
+2015-05-17T00:17:09.522+0200 I COMMAND  [DataFileSync] flushing diag log
+2015-05-17T00:18:09.523+0200 I COMMAND  [DataFileSync] flushing diag log
+2015-05-17T00:19:09.528+0200 I COMMAND  [DataFileSync] flushing diag log
+2015-05-17T00:20:09.527+0200 I COMMAND  [DataFileSync] flushing diag log
