@@ -6,10 +6,14 @@ var app = express();
 /* Config du server express                */
 /*******************************************/
 /* exposition du dossier de l'application */
-app.use(express.static('app'));
+//app.use(express.static('app'));
+
+// Use our 'dist' folder as rootfolder
+app.use(express.static('./dist'));
+
 app.get('/', function (req, res) {
     /* On envoie sur notre application angular */
-    res.sendFile(__dirname + '/app/index.html');
+    res.sendFile(__dirname + '/dist/index.html');
 });
 
 /*******************************************/
@@ -37,3 +41,5 @@ io.on('connection', function (socket) {
 http.listen(3000, function () {
     console.log('listening on *:3000');
 });
+
+module.exports = app;
